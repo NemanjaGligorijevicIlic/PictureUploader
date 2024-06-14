@@ -18,7 +18,7 @@ public class PictureUploader {
     private static final String S3_FOLDER = "images/";
     private static final String LOCAL_FOLDER_PATH = "/Users/Nemanj Gligorijevic Ilic/Desktop/sliketest";
 
-    public static void uploade() {
+    public static void upload() {
         S3ClientCreator creator = new S3ClientCreator();
         S3Client s3Client = creator.createS3Client();
 
